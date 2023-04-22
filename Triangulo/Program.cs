@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Globalization;
 
 namespace Course
@@ -69,7 +69,7 @@ namespace Course
             {
                 Console.WriteLine("Perimetro de X = " + perX.ToString("F4", CultureInfo.InvariantCulture));
                 Console.WriteLine("Área de X = " + areaX.ToString("F4", CultureInfo.InvariantCulture));
-
+                Console.WriteLine(" "); // blank line
             }
 
 
@@ -77,17 +77,20 @@ namespace Course
             {
                 Console.WriteLine("Perimetro de Y = " + perY.ToString("F4", CultureInfo.InvariantCulture));
                 Console.WriteLine("Área de Y = " + areaY.ToString("F4", CultureInfo.InvariantCulture));
+                Console.WriteLine(" "); // blank line
             }
 
             if (invalidoX == 0 && invalidoY == 0)
             {
                 if (areaX > areaY)
                 {
-                    Console.WriteLine("X tem maior area ");
+                    Console.WriteLine("X tem a maior area ");
+                    Console.WriteLine(" "); // blank line
                 }
                 else
                 {
-                    Console.WriteLine("Y tem maior area ");
+                    Console.WriteLine("Y tem a maior area ");
+                    Console.WriteLine(" "); // blank line
                 }
             }
 
