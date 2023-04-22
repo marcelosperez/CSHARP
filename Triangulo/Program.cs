@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace Course
+namespace MyApp
 {
     class Program
     {
