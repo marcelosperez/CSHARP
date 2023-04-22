@@ -1,52 +1,12 @@
 using System;
-
-namespace MyApp
-{
-    class Triangulo
-    {
-        private double a;
-        private double b;
-        private double c;
-
-        public double GetA()
-        {
-            return a;
-        }
-
-        public void SetA(double a)
-        {
-            this.a = a;
-        }
-
-        public double GetB()
-        {
-            return b;
-        }
-
-        public void SetB(double b)
-        {
-            this.b = b;
-        }
-
-        public double GetC()
-        {
-            return c;
-        }
-
-        public void SetC(double c)
-        {
-           this.c = c;
-        }
-
-        public double Perimetro()
-        {
-            return a + b + c;
-        }
-
-        public double Area()
-        {
-            double sp = Perimetro() / 2.0;
-            return (double) Math.Sqrt(sp * (sp - a) * (sp - b) * (sp - c));
-        }
-    }
+namespace Course {
+class Triangulo {
+public double A;
+public double B;
+public double C;
+public double Area() {
+double p = (A + B + C) / 2.0;
+return Math.Sqrt(p * (p - A) * (p - B) * (p - C));
+}
+}
 }

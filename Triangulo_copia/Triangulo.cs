@@ -1,6 +1,6 @@
 using System;
 
-namespace Course
+namespace MyApp
 {
     class Triangulo
     {
